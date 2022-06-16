@@ -1,0 +1,11 @@
+.producto{
+    @include container();
+    &__info{
+        @include product();
+    }
+    &__cart{
+        @include cart();
+    }
+}
+
+

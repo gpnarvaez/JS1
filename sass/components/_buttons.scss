@@ -1,0 +1,6 @@
+.button{
+    @extend %button_dimensions;
+    &:hover{
+        color: rgb(19, 69, 30);
+    }
+}

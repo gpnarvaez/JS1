@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Módulo 1 - JavaScript</title>
+</head>
+
+<body>
+    <div class="producto">
+        <div class="producto__info">
+            <div><img class="producto__info--img" src="assets/img/latop.png" alt=".."></div>
+            <h3 class="producto__info--texts">Macbook Pro</h3>
+            <input class="producto__info--selections" id="qty" type="number" min="1" placeholder="Cantidad">
+            <input class="producto__info--selections" id="color" type="text" placeholder="Color">
+            <p class="producto__info--texts">Precio: $ <span id="Price">1.250.000</span></p>
+            <button class="button" id="btn-1" onclick="calculo()">Agregar</button>
+        </div>
+        <div>
+            <div class="producto__cart">
+                <p class="producto__cart--p">Total: $ <span id="grossTotal"></span></p>
+                <p class="producto__cart--p">Cantidad: <span id="totalQty"></span></p>
+                <div class="producto__cart--colorCont">
+                    <p>Color </p>
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <circle cx="15" cy="15" r="15" fill="white" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/myScript.js"></script>
+</body>
+
+</html>

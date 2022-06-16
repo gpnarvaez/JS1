@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400&display=swap");
+.nav__logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  padding: 15px 100px;
+}
+
+.hero, .hero__secondary, .hero__third, .card, .card__secondary, .card__third {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: justify;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.card, .card__secondary, .card__third {
+  background: #FFF;
+  color: #686963;
+}
+
+.card__secondary {
+  background: #91918D;
+  color: #FFF;
+}
+
+.button {
+  width: 280px;
+  margin: 20px;
+  padding: 8px 15px;
+  font-size: 25px;
+  font-weight: bold;
+  background: #FFF;
+  color: #686963;
+  border: 1px solid #91918D;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  background: #686963;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'Prompt', sans-serif;
+}
+
+.button:hover {
+  color: #E56353;
+}
+
+.nav__img {
+  width: 200px;
+}
+
+.hero {
+  background: #E56353;
+  padding: 5%;
+  height: 600px;
+}
+
+.hero__text--primary {
+  font-size: 70px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.hero__text--secondary {
+  font-size: 70px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.hero__text--third {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.hero__secondary {
+  background: #E56353;
+  padding: 5%;
+  height: 100px;
+}
+
+.hero__secondary__text--primary {
+  font-size: 70px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.hero__secondary__text--secondary {
+  font-size: 70px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.hero__secondary__text--third {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.hero__third {
+  background: #E56353;
+  padding: 5%;
+  height: 70px;
+}
+
+.hero__third__text--primary {
+  font-size: 70px;
+  font-weight: 400;
+  color: #FFF;
+}
+
+.hero__third__text--secondary {
+  font-size: 70px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.hero__third__text--third {
+  font-size: 40px;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.card {
+  padding: 5%;
+}
+
+.card--img {
+  width: 70%;
+  margin: 20px;
+}
+
+.card--title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card--desc {
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  margin: 10px;
+}
+
+.card__secondary {
+  padding: 5%;
+}
+
+.card__secondary--img {
+  width: 70%;
+  margin: 20px;
+}
+
+.card__secondary--title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card__secondary--desc {
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  margin: 10px;
+}
+
+.card__third {
+  padding: 5%;
+}
+
+.card__third--img {
+  width: 30%;
+  margin: 20px;
+}
+
+.card__third--title {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card__third--desc {
+  font-size: 16px;
+  font-weight: 400;
+  width: 50%;
+  margin: 10px;
+}
+
+.footer__logo {
+  width: 150px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,31 @@
+@mixin container {
+    @extend %container;
+}
+
+@mixin product {
+    @extend %product_config;
+
+    &--img {
+       @extend %img_config;
+    }
+
+    &--selections {
+        @extend %inputs_config;
+    }
+
+    &--texts {
+        @extend %font_config;
+    }
+}
+
+@mixin cart {
+    @extend %cart_config;
+
+    &--p {
+        @extend %cart_text;
+    }
+
+    &--colorCont {
+        @extend %cart_color;
+    }
+}

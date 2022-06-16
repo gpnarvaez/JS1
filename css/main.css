@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:wght@100;200;400&display=swap");
+.producto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.producto__info {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  background: #5b96df;
+  border-radius: 5%;
+  padding: 20px 5px;
+  border: 2px solid rgb(81, 79, 79);
+}
+
+.producto__info--img {
+  width: 200px;
+  align-self: center;
+}
+
+.producto__info--texts {
+  font-size: 16px;
+  color: #FFF;
+}
+
+.producto__info--selections {
+  text-align: center;
+  width: 60%;
+  align-self: center;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  justify-self: center;
+}
+
+.button {
+  width: 100px;
+  align-self: center;
+  background: rgb(237, 155, 3);
+  color: #FFF;
+  font-size: 16px;
+  font-weight: bold;
+  width: 65%;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+.producto__cart {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 300px;
+  border-radius: 5%;
+  padding: 20px 5px;
+}
+
+.producto__cart--p {
+  font-size: 18px;
+  color: #000;
+}
+
+.producto__cart--colorCont {
+  font-size: 18px;
+  display: flex;
+  white-space: break-spaces;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  margin: 100px 10px;
+  min-width: 600px;
+  align-self: center;
+  justify-content: center;
+}
+
+body {
+  font-family: "Prompt", sans-serif;
+}
+
+.button:hover {
+  color: rgb(19, 69, 30);
+}
+
+/*# sourceMappingURL=main.css.map */
